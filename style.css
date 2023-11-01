@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+/* body::before {
+    content: '';
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+} */
+
+.page {
+    max-width: 37.5rem;
+    margin: 2.0rem auto 5.0rem ;
+}
+
+.main {
+    padding: 1.5rem;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.image img {
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid greenyellow;
+}
+
+.info h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.info h3 {
+    color: greenyellow;
+    font-style: italic;
+    text-align: center;
+}
+
+.info h2 {
+    color: greenyellow;
+    text-transform: uppercase;
+    margin: 1.5rem 0 1.5rem;
+}
+
+.info p {
+    color: white;
+}
+
+.title {
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-top: 1.0rem;
+}
+
+.brazil , .spain , .usa {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.contact p, a {
+    display: flex;
+    align-items: center;
+}
+
+.info a {
+    text-decoration: none;
+}
+
+ion-icon {
+    width: 2.0rem;
+    height: 2.0rem;
+    color: white;
+    margin-right: 0.8rem;
+    margin-bottom: 0.2rem;
+}
+
+.profile {
+    max-width: 37.5rem;
+    padding: 1.6rem;
+}
+
+h4 {
+    color: greenyellow;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin: 1.5rem 0 1.5rem;
+}
+
+.profile p {
+    color: white;
+}
+
+ul {
+    color: white;
+    padding: 1.6rem;
+    line-height: 2.0rem;
+}
+
+@media (min-width: 40em) {
+
+    body {
+        background-color: white;
+    }
+    .page {
+        max-width: 1440px;
+        display: flex;
+        gap: 15.0rem;
+    }
+
+    body::before {
+    content: '';
+    width: 38%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    }
+
+    h4 {
+        color: black;
+        border-bottom: 2px solid black;
+        padding: 1.5rem;
+    }
+
+    .profile {
+        max-width: 700px;
+    }
+
+    .profile p {
+        color: black;
+    }
+
+    ul {
+        color: black;
+    }
+
+}
